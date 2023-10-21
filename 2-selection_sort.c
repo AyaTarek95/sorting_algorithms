@@ -2,7 +2,7 @@
 /**
  * selection_sort- sorts an array of integers
  * @array: to sort
- * :size: array's size
+ * @size: array's size
  */
 void selection_sort(int *array, size_t size)
 {

@@ -23,7 +23,7 @@ void My_SwapII(int *array, size_t size, int *x, int *y)
  * @size: of array
  * @low: lowest index
  * @high: size -1
- * @Return: pivot address
+ * Return: pivot
  */
 size_t Lomuto_part(int *array, size_t size, size_t low, size_t high)
 {
