@@ -3,9 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
-void bubble_sort(int *array, size_t size);
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -19,15 +17,15 @@ typedef struct listint_s
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
-
+void bubble_sort(int *array, size_t size);
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 void my_swap(listint_t *i, listint_t *k);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-size_t Lomuto_part(int *array, size_t size, size_t low, size_t high);
-void QuickSort(int *array, size_t size, size_t low, size_t high);
+size_t Lomuto_part(int *array,size_t size, size_t low, size_t high);
+void QuickSort_recursion(int *array, size_t size, size_t low, size_t high);
 void My_SwapII(int *array, size_t size, int *x, int *y);
 
 #endif
