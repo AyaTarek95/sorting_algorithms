@@ -14,7 +14,7 @@ void selection_sort(int *array, size_t size)
 
 	for (x = 0; x < size - 1; x++)
 	{
-		for (y = size - 1, z = x + 1; y > x; j--)
+		for (y = size - 1, z = x + 1; y > x; y--)
 		{
 			if (array[y] < array[z])
 				z = y;
